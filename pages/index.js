@@ -1,3 +1,17 @@
+import "./index.css";
+import Card from "./Card";
+
 export default () => {
-    return <p>Hello</p>
-}
+  return (
+    <div>
+      <header>
+        <img src="/logo.png" alt="logo" className="static-logo" />
+      </header>
+      <div className="Grid">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
+  );
+};
